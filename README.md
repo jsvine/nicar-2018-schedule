@@ -1,24 +1,24 @@
-# NICAR 2017 Schedule as Structured Data
+# NICAR 2018 Schedule as Structured Data
 
-This repository contains the [NICAR 2017 conference schedule](https://ire.org/events-and-training/event/2702/) as JSON and CSV files, plus the underlying Python scraper.
+This repository contains the [NICAR 2018 conference schedule](https://www.ire.org/conferences/nicar18/schedule/) as JSON and CSV files, plus the underlying Python scraper.
 
-*Going to NICAR? You might be interested in the [data, analyses, and tools we've open-sourced at BuzzFeed News](https://github.com/buzzfeednews/everything) and the [BuzzFeed Open Lab](https://github.com/buzzfeed-openlab). You might also be interested in [Data Is Plural](https://tinyletter.com/data-is-plural), my weekly newsletter of useful/curious datasets.*
+*Going to NICAR? You might be interested in the [data, analyses, and tools we've open-sourced at BuzzFeed News](https://github.com/buzzfeednews/everything).*
 
 ## Get the data
 
-*Last updated March 4, 2017 @ 8:30am Eastern*
+*Last updated Feb. 19, 2018 @ 9pm  Eastern*
 
-- [JSON schedule](schedule/nicar-2017-schedule.json?raw=true)
-- [CSV schedule](schedule/nicar-2017-schedule.csv?raw=true)
+- [JSON schedule](schedule/nicar-2018-schedule.json?raw=true)
+- [CSV schedule](schedule/nicar-2018-schedule.csv?raw=true)
 
 ## Run the scraper yourself
 
 To run the scraper, you'll need Python 3. To get started, execute the following commands in your terminal:
 
 ```bash
-mkvirtualenv nicar-2017-schedule # Optional, recommended
-git clone https://github.com/jsvine/nicar-2017-schedule.git
-cd nicar-2017-schedule
+mkvirtualenv nicar-2018-schedule # Optional, recommended
+git clone https://github.com/jsvine/nicar-2018-schedule.git
+cd nicar-2018-schedule
 pip install -r requirements.txt
 ```
 
@@ -26,13 +26,6 @@ To run the scraper, execute this command:
 
 ```bash
 make schedule
-```
-
-*Or*, more verbosely:
-
-```bash
-python ./scripts/scrape.py > schedule/nicar-2017-schedule.json
-in2csv schedule/nicar-2017-schedule.json > schedule/nicar-2017-schedule.csv
 ```
 
 ## Look beneath the hood

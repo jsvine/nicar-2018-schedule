@@ -10,13 +10,16 @@ import csv
 import sys
 import re
 
-SCHEDULE_URL = "https://ire.org/conferences/nicar2017/schedule/"
+DEST = "schedule/nicar-2018-schedule"
+
+SCHEDULE_URL = "https://www.ire.org/conferences/nicar18/schedule/"
+
 DATES = [
-    "2017-03-01",
-    "2017-03-02",
-    "2017-03-03",
-    "2017-03-04",
-    "2017-03-05"
+    "2018-03-07",
+    "2018-03-08",
+    "2018-03-09",
+    "2018-03-10",
+    "2018-03-11",
 ]
 
 def extract_speakers(description):
@@ -116,12 +119,37 @@ def get_sessions():
         "title"
     )))
 
+def save_json(sessions):
+    with open(DEST + ".json", "w") as f:
+        json.dump(sessions, f, indent=4)
+    
+def save_csv(sessions):
+    columns = [
+        "event_id",
+        "type",
+        "date",
+        "time_start",
+        "time_end",
+        "room",
+        "title",
+        "speakers",
+        "description",
+        "event_url",
+        "length_in_hours",
+    ]
+
+    with open(DEST + ".csv", "w") as f:
+        writer = csv.DictWriter(f, fieldnames = columns)
+        writer.writeheader()
+        writer.writerows(sessions)
+
 def main():
     """
     Get the data and print it.
     """
     sessions = get_sessions()
-    json.dump(sessions, sys.stdout, indent=4)
+    save_json(sessions)
+    save_csv(sessions)
 
 if __name__ == "__main__":
     main()
