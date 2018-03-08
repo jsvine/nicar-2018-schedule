@@ -964,7 +964,7 @@
     {
         "title": "Conversation: More bibles, fewer priests: Tools for running self-managing teams",
         "type": "NICAR Commons",
-        "description": "A lot of managers see themselves at the center of the team\u2019s universe \u2014 the lynchpin, making the decisions every day. And that\u2019s a great way to burn out, stifle the growth of your teammates and totally avoid thinking about the important stuff, like the future. So, forget that! Let\u2019s talk about the tools and techniques you can use to make yourself non-essential. (This session is also good for non-managers who have bosses that are making poor choices.)",
+        "description": "A lot of managers see themselves at the center of the team\u2019s universe \u2014 the linchpin, making the decisions every day. And that\u2019s a great way to burn out, stifle the growth of your teammates and totally avoid thinking about the important stuff, like the future. So, forget that! Let\u2019s talk about the tools and techniques you can use to make yourself non-essential. (This session is also good for non-managers who have bosses that are making poor choices.)",
         "speakers": "Brian Boyer",
         "date": "2018-03-08",
         "time_start": "16:45",
@@ -1133,7 +1133,7 @@
     {
         "title": "Beyond 1M rows: Using and joining large datasets in Excel",
         "type": "Hands-on",
-        "description": "The old restriction of 1 million rows in Excel no longer applies. Get and Transform in Office 2016 allows you to connect to large data sources, query them and even merge tables straight from your spreadsheet. We will be looking at visualizing this data in Excel with Pivot Charts.",
+        "description": "*Please note: This session will be a demo only.\n\nThe old restriction of 1 million rows in Excel no longer applies. Get and Transform in Office 2016 allows you to connect to large data sources, query them and even merge tables straight from your spreadsheet. We will be looking at visualizing this data in Excel with Pivot Charts.",
         "speakers": "Leo Zhao, Callie Neylan, Joseph Chirilov",
         "date": "2018-03-09",
         "time_start": "09:00",
@@ -1378,10 +1378,10 @@
         "event_url": "https://ire.org/events-and-training/event/3189/3613/"
     },
     {
-        "title": "Conversation: VR for investigative journalism",
+        "title": "Conversation: Starting a new investigative team with a data focus",
         "type": "NICAR Commons",
-        "description": "Based on work and research in Saleem Khan\u2019s JOVRNALISM practice with news and other organizations, and drawing on emergent consensus with other global leaders, this session will help participants understand the emergent and rapidly evolving field of immersive media such as virtual and augmented reality, why they matter, how to explore and experiment, and key ethics and other issues with the medium especially as they apply to investigative journalism today and in the future.",
-        "speakers": "Saleem Khan",
+        "description": "Learn from our mistakes. Raycom Media created a brand-new national investigative team with a focus on data. Oh, and we are located in SD, Ohio and New Orleans AND hiring!",
+        "speakers": "Jill Riepenhoff, Lee Zurik",
         "date": "2018-03-09",
         "time_start": "10:15",
         "time_end": "11:15",
@@ -2600,6 +2600,19 @@
         "event_url": "https://ire.org/events-and-training/event/3189/3584/"
     },
     {
+        "title": "Google Sheets: Scraping without coding (second repeat session)",
+        "type": "Hands-on",
+        "description": "Yes, you can scrape data without using code -- in fact, all you need is Google Sheets! We'll be using Excel-type formulas (don't worry if you don't know what those are, either) to make simple scrapers that automatically pull data into Google Sheets. It's the best way to get around clunky websites and unhelpful PIOs!\n\n*Please note: You must bring your own laptop in order to participate in this class.\n\nThis session is good for: Beginners who want to start using data for their stories.",
+        "speakers": "Samantha Sunne",
+        "date": "2018-03-10",
+        "time_start": "15:30",
+        "time_end": "16:30",
+        "length_in_hours": 1.0,
+        "room": "Grace",
+        "event_id": "3189/3677",
+        "event_url": "https://ire.org/events-and-training/event/3189/3677/"
+    },
+    {
         "title": "I'm entitled to a spreadsheet, dang it!",
         "type": "Panel",
         "description": "Public records requests for data come with their own unique set of challenges \u2014 from agencies that insist their databases can only export documents, to those that will only send a fraction of the fields that are disclosable under the law. We\u2019ll give you tips on writing rock-solid public records request for data, and how to respond to the common excuses used to deny these requests. Topics will include: Common sources that prove the agency has a database and can export data; statute, case law and language to make it more likely you\u2019ll receive data (versus a PDF, or even worse, scans of redacted printouts); how to negotiate the confidentiality issues that come with medical and educational data; and managing the mass FOIA request project. We\u2019ll provide a sample data request, a few good war stories, and links to helpful resources.",
@@ -2650,19 +2663,6 @@
         "room": "Clark",
         "event_id": "3189/3600",
         "event_url": "https://ire.org/events-and-training/event/3189/3600/"
-    },
-    {
-        "title": "Securing your devices for border crossings (Security Track)",
-        "type": "Hands-on",
-        "description": "New or increased threats face journalists crossing borders into the United States and internationally, particularly for their devices and the information they can access. This session aims to introduce participants to fundamental threat modeling, security hygiene, and ways to protect devices and data. Key topics include intrusion detection, securing communications and data encryption. This workshop will help attendees to understand digital security threats and methods to guard your devices and data.\n\nThis is session is good for: Anyone interested in securing their devices. Bring your own phone and laptop.\n\nThis session was planned in collaboration with the Freedom of the Press Foundation.",
-        "speakers": "Saleem Khan",
-        "date": "2018-03-10",
-        "time_start": "15:30",
-        "time_end": "16:30",
-        "length_in_hours": 1.0,
-        "room": "Grace",
-        "event_id": "3189/3677",
-        "event_url": "https://ire.org/events-and-training/event/3189/3677/"
     },
     {
         "title": "Setting up a reproducible data analysis workflow in R",
