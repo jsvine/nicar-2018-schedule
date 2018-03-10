@@ -2330,7 +2330,7 @@
         "title": "Python 2: Intro to data analysis using Pandas (repeat session)",
         "type": "Hands-on",
         "description": "Imagine rolling Excel and MySQL into one tool that also allows you to track your code and share it. That\u2019s Pandas in a nutshell. There\u2019s a lot more you can do with it, of course, but this will be a good start. We\u2019ll learn how to slice and dice our data and extract basic stats. Specifically, we\u2019ll cover loading the data, filtering, sorting, joining and grouping data.\n\nThis class is good for: People who are comfortable with Excel and are familiar with the basics of SQL and Python.",
-        "speakers": "Lorena Mesa",
+        "speakers": "Fedor Zarkhin",
         "date": "2018-03-10",
         "time_start": "11:30",
         "time_end": "12:30",
